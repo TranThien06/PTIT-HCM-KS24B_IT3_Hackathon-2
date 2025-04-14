@@ -1,0 +1,113 @@
+/* body */
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #f3f6fb;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     min-height: 100vh;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ h1 {
+     text-align: center;
+     color: #2c3e50;
+ }
+
+ .container {
+     background-color: white;
+     padding: 30px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     width: 90%;
+     max-width: 1000px;
+     margin-bottom: 30px;
+ }
+
+ input[type="text"],
+ input[type="email"] {
+     width: 98%;
+     padding: 10px;
+     margin-bottom: 10px;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+ }
+
+ .error {
+     color: red;
+     font-size: 0.9em;
+     margin-top: -8px;
+     margin-bottom: 8px;
+ }
+
+ .btn {
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     color: white;
+     background-color: #3498db;
+ }
+
+ .btn-update {
+     background-color: #2ecc71;
+     /* dãn ra */
+        margin-right: 5px;
+ }
+
+ .btn-delete {
+     background-color: #e74c3c;
+    margin-left: 5px;
+ }
+
+ .table-container {
+     width: 90%;
+     max-width: 1000px;
+     margin-bottom: 50px;
+     background-color: white;
+     padding: 30px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ table {
+     width: 100%;
+     border-collapse: collapse;
+     background-color: white;
+ }
+
+ th,
+ td {
+     padding: 12px;
+     text-align: center;
+     border: 1px solid #cccccc;
+ }
+
+ th {
+     background-color: #ffffff;
+ }
+/* chỉnh ổ MSSV nhỏ lại */
+    th:nth-child(2),
+    td:nth-child(2) {
+     width: 10%;
+    }
+        th:nth-child(5),
+        td:nth-child(5) {
+            width: 20%;
+        }
+                 th:nth-child(1),
+                 td:nth-child(1) {
+                     width: 20%;
+                 }
+
+ #searchInput {
+     width: 98%;
+     padding: 10px;
+     margin-bottom: 15px;
+     border-radius: 5px;
+     border: 1px solid #cccccc;
+ }
+
+ 
